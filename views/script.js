@@ -1,0 +1,1 @@
+document.querySelectorAll(".nav-item nav-link").onclick("click", alert("hello"))

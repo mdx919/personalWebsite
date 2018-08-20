@@ -16,7 +16,7 @@ html, body {
   height: 50vh;
   margin-left: 25%;
   margin-right: 25%;
-  margin-top: 25vh;
+  margin-top: 35vh;
   background-color: #242431;
   border-radius: 10px;
 }
@@ -28,15 +28,13 @@ html, body {
 }
 
 #image-style {
-  /* width: 220px;
-  height: 220px; */
   position: relative;
   width: 100%;
   height: 100%;
   max-height: 30vh;
   max-width: 30%;
   border-radius: 200px;
-  margin-top: -100px;
+  margin-top: -80px;
 }
 
 #brand-img {
@@ -46,17 +44,55 @@ html, body {
 
 .navbar-light .navbar-nav .nav-link {
     color: #D6E3D4 !important;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #8E2D11 !important;
 }
 
 .navbar-light .navbar-brand {
     color: #EF8644 !important;
     letter-spacing: 2px;
     font-size: 1.5em;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: #8E2D11 !important;
 }
 
 .navbar-nav {
     align-items: center;
     margin: 0 20px !important;
+    width: 100%;
+}
+
+.navbar {
+  padding-bottom: 0px !important;
+}
+
+#my-name {
+  font-size: 30px;
+  margin-top: 20px;
+  color: white;
+}
+
+#intro {
+  text-align: center;
+}
+
+#learn-about-me {
+  margin-top: 5vh;
+  background-color: #D35D16;
+  color: white !important;
+}
+
+#learn-about-me:hover {
+  background-color: white !important;
+  color: #D35D16 !important;
 }
