@@ -10,6 +10,14 @@ app.get("/", function(req, res){
     res.render("index")
 })
 
+app.get("/aboutme", function(req, res){
+    res.render("aboutme")
+})
+
+app.get("/skills", function(req, res){
+    res.render("skills")
+})
+
 app.get("*", function(req, res){
     res.send("This route does not exist!")
 })

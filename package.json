@@ -2,10 +2,10 @@
   "name": "portfoliowebsite",
   "version": "1.0.0",
   "description": "website of my portfolio",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --watch index.js && nodemon --watch /views"
+    "start": "nodemon --watch server.js"
   },
   "author": "Md Naim Uddin",
   "license": "ISC",
